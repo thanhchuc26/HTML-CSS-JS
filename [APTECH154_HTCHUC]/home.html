@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<script type="text/javascript" src="js/index.js"></script>
+	<title>Wine-Horse</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="user-menu">
+							<ul>
+                                <li><a class="user-menu-1" href="#">Tài khoản của tôi</a></li>
+                                <li> - </li>
+                                <li><a class="user-menu-1" href="#">Trạng thái đơn hàng</a></li>
+                                <li> - </li>
+                                <li><a class="user-menu-1" href="#">Danh sách ưa thích</a></li>
+                                <li> - </li>
+                                <li><a class="user-menu-1" href="#">Giỏ hàng</a></li>
+                                <li> - </li>
+                                <li><a class="user-menu-1" href="#">Đăng nhập</a></li>
+                                <li> - </li>
+                                <li><a class="user-menu-1" href="register.html">Đăng ký</a></li>
+                            </ul>
+						</div> <!-- END logo -->
+						<div class="widgets">
+							<div class="widgets-search">
+								<form action="#" method="get" accept-charset="utf-8">
+									<label>
+										<input style="color: #d6d6d6; font-size: 13px; font-weight: normal" type="search" name="" value="" placeholder="|  Tìm kiếm ở đây...">
+										<i class="fas fa-search"></i>
+									</label>
+								</form>
+							</div><!-- END search -->
+						</div><!-- END widgets -->
+					</div>
+				</div>
+			</div>
+		</div> <!-- END header top -->
+
+		<div class="header-bottom">
+			<div class="container-fluid">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="logo">
+								<a href="" > <img src="images/Logo2.png" alt="" class="img-responsive"></a>
+							</div>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="#">TRANG CHỦ</a></li>
+								<li><a href="#">RƯỢU VANG ĐỎ</a></li>
+								<li><a href="#">RƯỢU TRẮNG</a></li>
+								<li><a href="#">CHAMPAGNE</a></li>
+								<li><a href="#">THÔNG TIN</a></li>
+								<li><a href="#">BLOG</a></li>
+								<li><a href="contact.html">LIÊN HỆ</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</nav>
+			</div>
+		</div> <!-- END header bottom -->
+	</div> <!-- END header -->
+	
+	<div class="main-intro">
+        <div class="container-fluid a">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="intro">
+                        <h2 style="font-family: 'Times New Roman', Times, serif">GIỚI THIỆU</h2>
+                        <img src="images/title-dark.png" alt="">
+                        <p class="text">
+                            Mriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                            dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option
+                            congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui
+                            facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,
+                            qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putam</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn btn-dark"><h3 style="font-family: 'Times New Roman', Times, serif">XEM THÊM</h3></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="product">
+            <div class="product-extra">
+                <div class="product-intro">
+                    <div class="type-product">
+                        <img class="wine" src="images/sale-product.png" >
+                    </div>
+                </div>
+                
+                <div class="infor-product">
+                    <h2 >RƯỢU NHO NĂM 1987</h2>
+                    <img src="images/titleleft-dark.png" alt="">
+                    <p style="font-size: 21pt; color: #e6ae48;font-family: Arial, Helvetica, sans-serif">330.000<sup>đ</sup></p>
+                    <button id="add-to-cart">ADD TO CART</button>
+                    <br>
+                    <P style="color: #818181;font-size: 12pt">Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ.
+                    Resveratro còn có khả năng ngăn chặn mật độ oxy hóa của protein béo.</P>
+                    <table class="table" style="border: 1px solid #e6ae48 ; color:#e6ae48">
+                        <tr>
+                            <td>334 <br> NGÀY</td>
+                            <td>26  <br> GIỜ</td>
+                        </tr>
+                        <tr>
+                            <td>60 <br> PHÚT</td>
+                            <td>15 <br> GIÂY</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div><!--  END product -->
+
+        <div class="new-product">
+            <h2 style="font-family: 'Times New Roman', Times, serif">SẢN PHẨM MỚI</h2>
+            <img src="images/title-dark.png" alt="">
+            <div class="container">
+            	<div class="row">
+            		<div class="col-sm-10 col-sm-offset-1">
+            			<div class="list-product">
+				            <div class="product-1">
+				                <div id="wine">
+				                    <img src="images/ru11.jpg" width="120px" height="370px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>
+
+				            <div class="product-2">
+				                <div id="wine">
+				                    <img src="images/ru9.jpg" width="80px" height="370px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>
+
+				            <div class="product-3">
+				                <div id="wine">
+				                    <img src="images/be.jpg" width="100px" height="369px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>
+
+				            <div class="product-4">
+				                <div id="wine">
+				                    <img src="images/NbeD.jpg" width="70px" height="360px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>     
+				           
+			        	</div>
+            		</div>
+            	</div>
+            </div>
+        </div> <!-- END new-product -->
+        
+		<div class="picture container-fluid">
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+	                <div class="info">
+	                    <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+	                </div>
+	                <a class="inline-block" href="#"><img src="images/s1.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a  href="#"><img src="images/s2.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a class="inline-block" href="#"><img src="images/s3.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a class="inline-block" href="#"><img src="images/s4.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a class="inline-block" href="#"><img src="images/s5.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a class="inline-block" href="#"><img src="images/s6.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a class="inline-block" href="#"><img src="images/s7.jpg" class="img-responsive"></a>
+                </div>
+		 	</div>
+		 	<div class="col-sm-3">
+		 		<div class="image-banner">
+                    <div class="info">
+                        <span class="year">1987</span> <br>
+	                    <span class="wine">RƯỢU</span>
+                    </div>
+                    <a class="inline-block" href="#"><img src="images/s8.jpg" class="img-responsive"></a>
+                </div>  
+		 	</div>
+        </div> <!-- END picture -->
+
+        <div class="selling-product">
+            <h2 style="font-family: 'Times New Roman', Times, serif">SẢN PHẨM BÁN CHẠY</h2>
+            <img src="images/title-dark.png" alt="">
+            <div class="container">
+            	<div class="row">
+            		<div class="col-sm-10 col-sm-offset-1">
+            			<div class="list-product">
+				            <div class="product-1">
+				                <div id="wine">
+				                    <img src="images/ru11.jpg"  height="370px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>
+
+				            <div class="product-2">
+				                <div id="wine">
+				                    <img src="images/ru2.jpg"  height="370px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>
+
+				            <div class="product-3">
+				                <div id="wine">
+				                    <img src="images/r26.jpg"  height="369px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>
+
+				            <div class="product-4">
+				                <div id="wine">
+				                    <img src="images/2.jpg"  height="360px" alt="">
+				                    <div id="action">
+				                        <div class="like-product">
+				                            <span><i class="fas fa-heart"></i> Yêu thích </span>
+				                        </div>
+				                        <div class="compare">
+				                            <span><i class="far fa-chart-bar"></i> So sánh </span>
+				                        </div>
+				                        <div class="buy">
+				                            <i class="fas fa-compress-arrows-alt"></i>
+				                        </div>
+				                    </div>
+				                </div>
+
+				                <div class="detail">
+				                    <h3 id="name-wine">RƯỢU VANG ĐÀ LẠT</h3>
+				                    <p id="cost">370.000<sup>đ</sup><span style="color: #818181; font-size: 14pt"> - <strike> 450.000</strike><sup>đ</sup></span></p>
+				                    <button id="add-to-cart">ADD TO CART</button>
+				                </div>
+				            </div>     
+				           
+			        	</div>
+            		</div>
+            	</div>
+            </div>
+        </div> <!-- END new-product -->
+
+		<div class="news-blog-customer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 news-blog">
+						<h2 class="text-center">TIN TỨC & BLOG</h2>
+                        <img src="images/title-dark.png" alt="" >
+                        <div class="row">
+                        	<div class="col-sm-6">
+                    			<div class="thumbnail">
+                    				<div class="img">
+                    					<img src="images/vangthanglong1.jpg" class="img-responsive">
+                    					<img src="images/new-link.png" class="img-responsive new-link hid">
+                    					<img src="images/new-link2.png" class="img-responsive hid">
+                    				</div>
+                    				<div class="caption">
+                    					<h3>Vang thăng long classic</h3>
+                    					<h5>Đăng bởi Giangle | 30/06/2015 | 60 bình luận</h5>
+                    					<p class="text-new">
+                    						Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ...
+                    					</p>
+                    					<p><a href="#" title="">Read more</a></p>
+                    				</div>
+                    			</div>
+                    		</div>
+                    		<div class="col-sm-6">
+                    			<div class="thumbnail">
+                    				<div class="img">
+                    					<img src="images/vangthanglong2.jpg" class="img-responsive">
+                    					<img src="images/new-link.png" class="img-responsive new-link hid">
+                    					<img src="images/new-link2.png" class="img-responsive hid">
+                    				</div>
+                    				<div class="caption">
+                    					<h3>Vang thăng long classic</h3>
+                    					<h5>Đăng bởi Giangle | 30/06/2015 | 60 bình luận</h5>
+                    					<p class="text-new">
+                    						Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ...
+                    					</p>
+                    					<p><a href="#" title="">Read more</a></p>
+                    				</div>
+                    			</div>
+                    		</div>
+                    	</div>
+                	</div>
+                	<div class="col-sm-4 customer">
+						<h2 class="text-center">KHÁCH HÀNG</h2>
+                        <img src="images/title-dark.png" alt="" >
+                        <div class="slide-customer">
+                        	<div class="slide1">
+								<img src="images/logotn.jpg" class="img-responsive">
+								<div class="caption">
+									<p class="text-new">Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ...
+	                    			</p>
+									<p><a href="#" title="">Read more</a></p>
+									<img src="images/avatar.jpg" class="img-responsive">
+									<h3 class="name">Giang LT</h3>
+									<h4 class="job">Graphic design</h4>
+								</div>
+							</div> <!-- END slide -->
+							<div class="slide1">
+								<img src="images/logotn.jpg" class="img-responsive">
+								<div class="caption">
+									<p class="text-new">Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ...
+	                    			</p>
+									<p><a href="#" title="">Read more</a></p>
+									<img src="images/avatar.jpg" class="img-responsive">
+									<h3 class="name">Giang LT</h3>
+									<h4 class="job">Graphic design</h4>
+								</div>
+							</div> <!-- END slide -->
+							<div class="slide1">
+								<img src="images/logotn.jpg" class="img-responsive">
+								<div class="caption">
+									<p class="text-new">Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ...
+	                    			</p>
+									<p><a href="#" title="">Read more</a></p>
+									<img src="images/avatar.jpg" class="img-responsive">
+									<h3 class="name">Giang LT</h3>
+									<h4 class="job">Graphic design</h4>
+								</div>
+							</div> <!-- END slide -->
+							
+                        </div>
+					</div>
+                </div>
+			</div>
+		</div> <!-- END news-blog-customer -->
+
+		<div class="brand-logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4"><img src="images/authentic.jpg" class="img-responsive"></div>
+					<div class="col-sm-4"><img src="images/retrobrand.jpg" class="img-responsive"></div>
+					<div class="col-sm-4"><img src="images/bearbrand.jpg" class="img-responsive"></div>
+				</div>
+			</div>
+		</div> <!-- END brand-logo -->
+
+		<div class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2">
+							<h3>Thông tin</h3>
+							<h4>về chúng tôi</h4>
+							<h4>giao hàng</h4>
+							<h4>cảm nghỉ</h4>
+							<h4>lưu trữ</h4>
+							<h4>chinh sách riêng tư</h4>
+						</div>
+						<div class="col-sm-2">
+							<h3>mua hàng</h3>
+							<h4>vận chuyển và trả hàng</h4>
+							<h4>mua hàng an toàn</h4>
+							<h4>vận quốc tế</h4>
+							<h4>liên kết</h4>
+							<h4>dịch vụ giảm giá</h4>
+						</div>
+						<div class="col-sm-4">
+							<h3>Gửi mail</h3>
+							<h4>Gửi mail cho chúng tôi để được hỗ trợ</h4>
+							<form action="#">
+                                <input style="margin-right: -3px" class="box-search" id="text" type="text" placeholder="Enter your email">
+                                <input style="background: black; color: white; border: none; height: 22px;" type="submit" name="" value="GỬI" class="search-submit">
+                            </form>
+							<ul class="list_social">
+								<li><a href="#"></a><i class="fab fa-twitter"></i></li>
+								<li><a href="#"></a><i class="fab fa-google-plus-g"></i></li>
+								<li><a href="#"></a><i class="fas fa-dharmachakra"></i></li>
+								<li><a href="#"></a><i class="fab fa-linkedin-in"></i></li>
+								<li><a href="#"></a><i class="fas fa-rss"></i></li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<h3>liên hệ</h3>
+							<h4><i class="fas fa-map-marker-alt"></i>Tầng 4, Tòa nhà Hanoi Group Số 442 Đội Cấn, P. Cống Vị, Q. Ba Đình, Hà Nội</h4>
+							<h4><i class="fas fa-phone"></i>(04)6674 2332 - <i class="fas fa-phone"></i>(04)3768 8904</h4>
+							<h4><i class="fas fa-phone"></i>(08) 6680 9686 <i class="fas fa-envelope"></i>Support@bizweb.vn</h4>
+						</div>
+					</div>
+				</div>
+			</div> <!-- END footer-top -->
+			<div class="footer-bottom">
+				<hr>
+				<div class="container">
+					<div class="footer-bottom-left" style="float: left; font-size: 18px; color: #818181">
+						<p>&copy; Copyright 2008-2014 DKT Technology JSC</p>
+					</div>
+					<div class="footer-bottom-right" style="float: right; font-size: 25px">
+						<span><i class="fab fa-cc-mastercard"></i>  <i class="fab fa-cc-visa"></i>  <i class="fab fa-cc-paypal"></i>  <i class="fab fa-cc-apple-pay"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div> <!-- END main-intro -->
+</body>
+</html>
